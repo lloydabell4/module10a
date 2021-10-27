@@ -2,7 +2,7 @@ library(readxl)
 library(tidyverse)
 library(broom)
 
-ad_treatment <- read_excel("ad_treatment.xlsx")
+ad_treatment <- read_excel("data/ad_treatment.xlsx")
 
 sum_df <- ad_treatment %>% 
   mutate(
